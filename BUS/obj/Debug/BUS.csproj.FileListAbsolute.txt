@@ -1,0 +1,11 @@
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\bin\Debug\BUS.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\bin\Debug\BUS.pdb
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\bin\Debug\DAL.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\bin\Debug\DTO.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\bin\Debug\DAL.pdb
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\bin\Debug\DTO.pdb
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\obj\Debug\BUS.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\BUS\obj\Debug\BUS.pdb

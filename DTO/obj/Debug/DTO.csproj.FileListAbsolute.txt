@@ -1,0 +1,6 @@
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\DTO\bin\Debug\DTO.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\DTO\bin\Debug\DTO.pdb
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\DTO\obj\Debug\DTO.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\DTO\obj\Debug\DTO.pdb
