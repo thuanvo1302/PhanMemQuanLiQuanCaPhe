@@ -23,12 +23,15 @@ namespace QuanLyQuanCaFe
         private string TenDangNhap;
         private string MatKhau;
         private string SelectedDrinkName;
+        private int SaveBillID;
+        
         public fTableManager(string tdn, string mk)
         {
             InitializeComponent();
             TenDangNhap= tdn;
             MatKhau= mk;
         }
+
         private void LoadTable()
         {
             tables = new BUS_Table();
@@ -328,14 +331,29 @@ namespace QuanLyQuanCaFe
             if(table != null)
             {
                 bill_id = bills.CheckIdBill(table.Id);
+                SaveBillID = bill_id;
                 bills.UpdateStatusTable(table.Id, "Trống");
 
                 float discount = (float)(nmGiamGia.Value / 100) * TotalPrice(table.Id);
                 float total = TotalPrice(table.Id);
                 bills.UpdateBill(bill_id, discount, total);
                 ShowBill(table.Id);
+
+                if(bill_id != -1)
+                {
+                    DialogResult dialogResult = MessageBox.Show("Bạn có muốn in hóa đơn không", "xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                    if (dialogResult == DialogResult.OK)
+                    {
+                        fReport f = new fReport(SaveBillID);
+                        this.Hide();
+                        f.ShowDialog();
+                        this.Show();
+                    }
+                }
+
                 ResetTable();
                 txtTotalPrice.Clear();
+
             }
             else
             {
@@ -343,6 +361,8 @@ namespace QuanLyQuanCaFe
             }
             bills.Delete();
             
+            
+
         }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)

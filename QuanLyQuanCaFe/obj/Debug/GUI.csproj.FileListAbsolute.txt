@@ -41,3 +41,4 @@ C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\QuanLyQuanCaFe\bin\Debug\CrystalDe
 C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\QuanLyQuanCaFe\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\QuanLyQuanCaFe\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\QuanLyQuanCaFe\bin\Debug\stdole.dll
+C:\Users\VIVOBOOK\source\repos\QuanLyQuanCaFe\QuanLyQuanCaFe\obj\Debug\QuanLyQuanCaFe.fReport.resources

@@ -49,6 +49,7 @@
     <Compile Include="BUS_Account.cs" />
     <Compile Include="BUS_Table.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BUS_Report.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

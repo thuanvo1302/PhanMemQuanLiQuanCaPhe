@@ -50,6 +50,7 @@
     <Compile Include="DTO_Statistic.cs" />
     <Compile Include="DTO_Table.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DTO_Report.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

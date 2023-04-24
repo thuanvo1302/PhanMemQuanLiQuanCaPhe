@@ -231,6 +231,7 @@ namespace DAL
             }
             return bills;
         }
+
         public bool DeleteBillIn(int billinfo_id)
         {
 
@@ -247,6 +248,7 @@ namespace DAL
                 return count > 0;
             }
         }
+
         public bool DeleteBill(int bill_id)
         {
 
@@ -281,7 +283,6 @@ namespace DAL
         }
 
 
-
         public int GetCount(string from, string to)
         {
 
@@ -299,6 +300,7 @@ namespace DAL
                 return count;
             }
         }
+
         public int GetIDBill(int table_id)
         {
 
@@ -315,8 +317,5 @@ namespace DAL
                 return count;
             }
         }
-        
-
-
     }
 }
